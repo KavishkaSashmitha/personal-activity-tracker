@@ -9,7 +9,7 @@ def fetch_github_activities(username, token):
         'Authorization': f'token {token}',
         'Accept': 'application/vnd.github.v3+json'
     }
-    url = f'https://api.github.com/users/{username}/events'
+    url = f'https://api.github.com/users/KavishkaSashmitha/events'
     
     try:
         response = requests.get(url, headers=headers)
